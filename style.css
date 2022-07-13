@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+.main-text {
+    text-align: center;
+    font-size: 5.5rem;
+    padding-top: 2rem;
+    padding-bottom: 15rem;
+}
+
+.button-main-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.buttons {
+    padding: 2rem;
+    size: 1rem;
+    font-size: 3rem;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.CrashClass {
+    background-image: url("./images/crash.png");
+}
+.KickClass {
+    background-image: url("./images/kick.png");
+}
+.SnareClass {
+    background-image: url("./images/snare.png");
+}
+.Tom1Class {
+    background-image: url("./images/tom1.png");
+}
+.Tom2Class {
+    background-image: url("./images/tom2.png");
+}
+.Tom3Class {
+    background-image: url("./images/tom3.png");
+}
+.Tom4Class {
+    background-image: url("./images/tom4.png");
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
