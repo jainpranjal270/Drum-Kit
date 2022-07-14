@@ -90,6 +90,7 @@ function makeSound(key) {
 
 
 function buttonAnimation (currentKey) {
+    currentKey = currentKey.substring().toLowerCase();
     console.log("." + currentKey + "key");
     var activateButton = document.querySelector("." + currentKey + "key");
     activateButton.classList.add("pressed");
